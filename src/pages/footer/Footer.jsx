@@ -18,7 +18,7 @@ function Footer() {
                   </div>
                   <ul className='social-links-footer list-inline'>
                     <li className='list-inline-item'>
-                      <a href='#'>
+                      <a href='https://www.facebook.com/ISM-Events-103477412283597'>
                         <i className='fa fa-facebook' />
                       </a>
                     </li>
@@ -55,7 +55,7 @@ function Footer() {
               <div className='col-md-6 align-self-center'>
                 <div className='copyright-text'>
                   <p>
-                    <a href='#'>Eventre</a> © 2017 All Right Reserved
+                    <a href='#'>ISM Event</a> © 2022 All Right Reserved
                   </p>
                 </div>
               </div>

@@ -86,12 +86,14 @@ function Schedule() {
                                 src='images/speakers/speaker-thumb-one.jpg'
                                 alt='speaker-thumb-one'
                               />
-                              <span className='name'>Samanta Doe</span>
+                              <span className='name'>Ramzan Talib</span>
                             </div>
                             {/* Subject */}
-                            <div className='subject'>Introduction to Wp</div>
+                            <div className='subject'>
+                              DataBase Management System
+                            </div>
                             {/* Venue */}
-                            <div className='venue'>Auditorium A</div>
+                            <div className='venue'>Auditorium</div>
                           </div>
                         </li>
                         {/* Schedule Details */}
@@ -108,12 +110,12 @@ function Schedule() {
                                 src='images/speakers/speaker-thumb-two.jpg'
                                 alt='speaker-thumb-two'
                               />
-                              <span className='name'>Zerad Pawel</span>
+                              <span className='name'>Umar Sarwar</span>
                             </div>
                             {/* Subject */}
-                            <div className='subject'>Principle of Wp</div>
+                            <div className='subject'>Information Security</div>
                             {/* Venue */}
-                            <div className='venue'>Auditorium B</div>
+                            <div className='venue'>Auditorium</div>
                           </div>
                         </li>
                         {/* Schedule Details */}
@@ -130,12 +132,12 @@ function Schedule() {
                                 src='images/speakers/speaker-thumb-three.jpg'
                                 alt='speaker-thumb-three'
                               />
-                              <span className='name'>Henry Mong</span>
+                              <span className='name'>Irfan Khan</span>
                             </div>
                             {/* Subject */}
-                            <div className='subject'>Wp Requirements</div>
+                            <div className='subject'>Compiler Construction</div>
                             {/* Venue */}
-                            <div className='venue'>Auditorium C</div>
+                            <div className='venue'>Auditorium</div>
                           </div>
                         </li>
                         {/* Schedule Details */}
@@ -152,12 +154,12 @@ function Schedule() {
                                 src='images/speakers/speaker-thumb-four.jpg'
                                 alt='speaker-thumb-four'
                               />
-                              <span className='name'>Baily Leo</span>
+                              <span className='name'>Shaikh Amir</span>
                             </div>
                             {/* Subject */}
-                            <div className='subject'>Introduction to Wp</div>
+                            <div className='subject'>Operating System</div>
                             {/* Venue */}
-                            <div className='venue'>Auditorium D</div>
+                            <div className='venue'>Auditorium </div>
                           </div>
                         </li>
                         {/* Schedule Details */}
@@ -174,12 +176,14 @@ function Schedule() {
                                 src='images/speakers/speaker-thumb-five.jpg'
                                 alt='speaker-thumb-five'
                               />
-                              <span className='name'>Lee Mun</span>
+                              <span className='name'>Rao Sohail</span>
                             </div>
                             {/* Subject */}
-                            <div className='subject'>Useful tips for Wp</div>
+                            <div className='subject'>
+                              Artificial Intelligence
+                            </div>
                             {/* Venue */}
-                            <div className='venue'>Auditorium E</div>
+                            <div className='venue'>Auditorium</div>
                           </div>
                         </li>
                         {/* Schedule Details */}
@@ -196,12 +200,12 @@ function Schedule() {
                                 src='images/speakers/speaker-thumb-six.jpg'
                                 alt='speaker-thumb-six'
                               />
-                              <span className='name'>Lee Mun</span>
+                              <span className='name'>Nafees Ayub</span>
                             </div>
                             {/* Subject */}
-                            <div className='subject'>Useful tips for Wp</div>
+                            <div className='subject'>Computer Networks</div>
                             {/* Venue */}
-                            <div className='venue'>Auditorium E</div>
+                            <div className='venue'>Auditorium</div>
                           </div>
                         </li>
                       </ul>
@@ -215,49 +219,27 @@ function Schedule() {
                           <div className='speaker'>Speaker</div>
                           <div className='subject'>Subject</div>
                           <div className='venue'>Venue</div>
-                        </li>
+                        </li>{' '}
                         {/* Schedule Details */}
                         <li className='schedule-details'>
                           <div className='block'>
                             {/* time */}
                             <div className='time'>
                               <i className='fa fa-clock-o' />
-                              <span className='time'>9.00 AM</span>
+                              <span className='time'>11.00 AM</span>
                             </div>
                             {/* Speaker */}
                             <div className='speaker'>
                               <img
-                                src='images/speakers/speaker-thumb-one.jpg'
-                                alt='speaker-thumb-one'
+                                src='images/speakers/speaker-thumb-four.jpg'
+                                alt='speaker-thumb-four'
                               />
-                              <span className='name'>Samanta Doe</span>
+                              <span className='name'>Shaikh Amir</span>
                             </div>
                             {/* Subject */}
-                            <div className='subject'>Introduction to Wp</div>
+                            <div className='subject'>Operating System</div>
                             {/* Venue */}
-                            <div className='venue'>Auditorium A</div>
-                          </div>
-                        </li>
-                        {/* Schedule Details */}
-                        <li className='schedule-details'>
-                          <div className='block'>
-                            {/* time */}
-                            <div className='time'>
-                              <i className='fa fa-clock-o' />
-                              <span className='time'>10.00 AM</span>
-                            </div>
-                            {/* Speaker */}
-                            <div className='speaker'>
-                              <img
-                                src='images/speakers/speaker-thumb-two.jpg'
-                                alt='speaker-thumb-two'
-                              />
-                              <span className='name'>Zerad Pawel</span>
-                            </div>
-                            {/* Subject */}
-                            <div className='subject'>Principle of Wp</div>
-                            {/* Venue */}
-                            <div className='venue'>Auditorium B</div>
+                            <div className='venue'>Auditorium </div>
                           </div>
                         </li>
                         {/* Schedule Details */}
@@ -271,15 +253,39 @@ function Schedule() {
                             {/* Speaker */}
                             <div className='speaker'>
                               <img
-                                src='images/speakers/speaker-thumb-three.jpg'
-                                alt='speaker-thumb-three'
+                                src='images/speakers/speaker-thumb-five.jpg'
+                                alt='speaker-thumb-five'
                               />
-                              <span className='name'>Henry Mong</span>
+                              <span className='name'>Rao Sohail</span>
                             </div>
                             {/* Subject */}
-                            <div className='subject'>Wp Requirements</div>
+                            <div className='subject'>
+                              Artificial Intelligence
+                            </div>
                             {/* Venue */}
-                            <div className='venue'>Auditorium C</div>
+                            <div className='venue'>Auditorium</div>
+                          </div>
+                        </li>
+                        {/* Schedule Details */}
+                        <li className='schedule-details'>
+                          <div className='block'>
+                            {/* time */}
+                            <div className='time'>
+                              <i className='fa fa-clock-o' />
+                              <span className='time'>1.00 PM</span>
+                            </div>
+                            {/* Speaker */}
+                            <div className='speaker'>
+                              <img
+                                src='images/speakers/speaker-thumb-six.jpg'
+                                alt='speaker-thumb-six'
+                              />
+                              <span className='name'>Nafees Ayub</span>
+                            </div>
+                            {/* Subject */}
+                            <div className='subject'>Computer Networks</div>
+                            {/* Venue */}
+                            <div className='venue'>Auditorium</div>
                           </div>
                         </li>
                         {/* Schedule Details */}
@@ -293,15 +299,17 @@ function Schedule() {
                             {/* Speaker */}
                             <div className='speaker'>
                               <img
-                                src='images/speakers/speaker-thumb-four.jpg'
-                                alt='speaker-thumb-four'
+                                src='images/speakers/speaker-thumb-one.jpg'
+                                alt='speaker-thumb-one'
                               />
-                              <span className='name'>Baily Leo</span>
+                              <span className='name'>Ramzan Talib</span>
                             </div>
                             {/* Subject */}
-                            <div className='subject'>Introduction to Wp</div>
+                            <div className='subject'>
+                              DataBase Management System
+                            </div>
                             {/* Venue */}
-                            <div className='venue'>Auditorium D</div>
+                            <div className='venue'>Auditorium</div>
                           </div>
                         </li>
                         {/* Schedule Details */}
@@ -315,15 +323,15 @@ function Schedule() {
                             {/* Speaker */}
                             <div className='speaker'>
                               <img
-                                src='images/speakers/speaker-thumb-five.jpg'
-                                alt='speaker-thumb-five'
+                                src='images/speakers/speaker-thumb-two.jpg'
+                                alt='speaker-thumb-two'
                               />
-                              <span className='name'>Lee Mun</span>
+                              <span className='name'>Umar Sarwar</span>
                             </div>
                             {/* Subject */}
-                            <div className='subject'>Useful tips for Wp</div>
+                            <div className='subject'>Information Security</div>
                             {/* Venue */}
-                            <div className='venue'>Auditorium E</div>
+                            <div className='venue'>Auditorium</div>
                           </div>
                         </li>
                         {/* Schedule Details */}
@@ -332,26 +340,26 @@ function Schedule() {
                             {/* time */}
                             <div className='time'>
                               <i className='fa fa-clock-o' />
-                              <span className='time'>3.00 PM</span>
+                              <span className='time'>4.00 PM</span>
                             </div>
                             {/* Speaker */}
                             <div className='speaker'>
                               <img
-                                src='images/speakers/speaker-thumb-six.jpg'
-                                alt='speaker-thumb-six'
+                                src='images/speakers/speaker-thumb-three.jpg'
+                                alt='speaker-thumb-three'
                               />
-                              <span className='name'>Lee Mun</span>
+                              <span className='name'>Irfan Khan</span>
                             </div>
                             {/* Subject */}
-                            <div className='subject'>Useful tips for Wp</div>
+                            <div className='subject'>Compiler Construction</div>
                             {/* Venue */}
-                            <div className='venue'>Auditorium E</div>
+                            <div className='venue'>Auditorium</div>
                           </div>
                         </li>
                       </ul>
                     </div>
                   ) : activeClass === 3 ? (
-                    <div className='tab-pane fade schedule-item' id='nov22'>
+                    <div className='schedule-item'>
                       {/* Headings */}
                       <ul className='m-0 p-0'>
                         <li className='headings'>
@@ -359,49 +367,27 @@ function Schedule() {
                           <div className='speaker'>Speaker</div>
                           <div className='subject'>Subject</div>
                           <div className='venue'>Venue</div>
-                        </li>
+                        </li>{' '}
                         {/* Schedule Details */}
                         <li className='schedule-details'>
                           <div className='block'>
                             {/* time */}
                             <div className='time'>
                               <i className='fa fa-clock-o' />
-                              <span className='time'>9.00 AM</span>
+                              <span className='time'>11.00 AM</span>
                             </div>
                             {/* Speaker */}
                             <div className='speaker'>
                               <img
-                                src='images/speakers/speaker-thumb-one.jpg'
-                                alt='speaker-thumb-one'
+                                src='images/speakers/speaker-thumb-seven.jpg'
+                                alt='speaker-thumb-four'
                               />
-                              <span className='name'>Samanta Doe</span>
+                              <span className='name'>SamiUllah</span>
                             </div>
                             {/* Subject */}
-                            <div className='subject'>Introduction to Wp</div>
+                            <div className='subject'>Web Designing</div>
                             {/* Venue */}
-                            <div className='venue'>Auditorium A</div>
-                          </div>
-                        </li>
-                        {/* Schedule Details */}
-                        <li className='schedule-details'>
-                          <div className='block'>
-                            {/* time */}
-                            <div className='time'>
-                              <i className='fa fa-clock-o' />
-                              <span className='time'>10.00 AM</span>
-                            </div>
-                            {/* Speaker */}
-                            <div className='speaker'>
-                              <img
-                                src='images/speakers/speaker-thumb-two.jpg'
-                                alt='speaker-thumb-two'
-                              />
-                              <span className='name'>Zerad Pawel</span>
-                            </div>
-                            {/* Subject */}
-                            <div className='subject'>Principle of Wp</div>
-                            {/* Venue */}
-                            <div className='venue'>Auditorium B</div>
+                            <div className='venue'>Auditorium </div>
                           </div>
                         </li>
                         {/* Schedule Details */}
@@ -415,15 +401,37 @@ function Schedule() {
                             {/* Speaker */}
                             <div className='speaker'>
                               <img
-                                src='images/speakers/speaker-thumb-three.jpg'
-                                alt='speaker-thumb-three'
+                                src='images/speakers/speaker-thumb-eight.jpg'
+                                alt='speaker-thumb-five'
                               />
-                              <span className='name'>Henry Mong</span>
+                              <span className='name'>Aater Javeed</span>
                             </div>
                             {/* Subject */}
-                            <div className='subject'>Wp Requirements</div>
+                            <div className='subject'>Theory of Automata</div>
                             {/* Venue */}
-                            <div className='venue'>Auditorium C</div>
+                            <div className='venue'>Auditorium</div>
+                          </div>
+                        </li>
+                        {/* Schedule Details */}
+                        <li className='schedule-details'>
+                          <div className='block'>
+                            {/* time */}
+                            <div className='time'>
+                              <i className='fa fa-clock-o' />
+                              <span className='time'>1.00 PM</span>
+                            </div>
+                            {/* Speaker */}
+                            <div className='speaker'>
+                              <img
+                                src='images/speakers/speaker-thumb-six.jpg'
+                                alt='speaker-thumb-six'
+                              />
+                              <span className='name'>Nafees Ayub</span>
+                            </div>
+                            {/* Subject */}
+                            <div className='subject'>Computer Networks</div>
+                            {/* Venue */}
+                            <div className='venue'>Auditorium</div>
                           </div>
                         </li>
                         {/* Schedule Details */}
@@ -437,15 +445,17 @@ function Schedule() {
                             {/* Speaker */}
                             <div className='speaker'>
                               <img
-                                src='images/speakers/speaker-thumb-four.jpg'
-                                alt='speaker-thumb-four'
+                                src='images/speakers/speaker-thumb-one.jpg'
+                                alt='speaker-thumb-one'
                               />
-                              <span className='name'>Baily Leo</span>
+                              <span className='name'>Ramzan Talib</span>
                             </div>
                             {/* Subject */}
-                            <div className='subject'>Introduction to Wp</div>
+                            <div className='subject'>
+                              DataBase Management System
+                            </div>
                             {/* Venue */}
-                            <div className='venue'>Auditorium D</div>
+                            <div className='venue'>Auditorium</div>
                           </div>
                         </li>
                         {/* Schedule Details */}
@@ -459,15 +469,15 @@ function Schedule() {
                             {/* Speaker */}
                             <div className='speaker'>
                               <img
-                                src='images/speakers/speaker-thumb-five.jpg'
-                                alt='speaker-thumb-five'
+                                src='images/speakers/speaker-thumb-two.jpg'
+                                alt='speaker-thumb-two'
                               />
-                              <span className='name'>Lee Mun</span>
+                              <span className='name'>Umar Sarwar</span>
                             </div>
                             {/* Subject */}
-                            <div className='subject'>Useful tips for Wp</div>
+                            <div className='subject'>Information Security</div>
                             {/* Venue */}
-                            <div className='venue'>Auditorium E</div>
+                            <div className='venue'>Auditorium</div>
                           </div>
                         </li>
                         {/* Schedule Details */}
@@ -476,20 +486,20 @@ function Schedule() {
                             {/* time */}
                             <div className='time'>
                               <i className='fa fa-clock-o' />
-                              <span className='time'>3.00 PM</span>
+                              <span className='time'>4.00 PM</span>
                             </div>
                             {/* Speaker */}
                             <div className='speaker'>
                               <img
-                                src='images/speakers/speaker-thumb-six.jpg'
-                                alt='speaker-thumb-six'
+                                src='images/speakers/speaker-thumb-three.jpg'
+                                alt='speaker-thumb-three'
                               />
-                              <span className='name'>Lee Mun</span>
+                              <span className='name'>Irfan Khan</span>
                             </div>
                             {/* Subject */}
-                            <div className='subject'>Useful tips for Wp</div>
+                            <div className='subject'>Compiler Construction</div>
                             {/* Venue */}
-                            <div className='venue'>Auditorium E</div>
+                            <div className='venue'>Auditorium</div>
                           </div>
                         </li>
                       </ul>

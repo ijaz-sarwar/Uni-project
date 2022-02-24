@@ -12,28 +12,31 @@ function About() {
                 <img
                   className='img-fluid'
                   src='images/speakers/featured-speaker.jpg'
-                  alt
+                  alt=''
                 />
               </div>
             </div>
             <div className='col-lg-8 col-md-6 align-self-center'>
               <div className='content-block'>
                 <h2>
-                  About The <span className='alternate'>Eventre</span>
+                  About The <span className='alternate'>ISM Events</span>
                 </h2>
                 <div className='description-one'>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusm tempor incididunt ut labore dolore magna aliqua
-                    enim ad minim veniam quis nostrud exercitation ullamco.
+                    We Provide dedicated, sincerely committed and highly
+                    profiled events management services, specializing in
+                    planning and coordinating events. As we are being considered
+                    one of the top Event Planner and Event Management Companies
+                    in Pakistan.
                   </p>
                 </div>
                 <div className='description-two'>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmtempor incididunt ut labore et dolore magna aliq
-                    enim ad minim veniam quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea.
+                    We pride ourselves in putting on the bespoke event around
+                    Pakistan. any type of events, which could be Family Events,
+                    like Weddings, Get-Together, Corporate Events, Gala Nights,
+                    Conferences, Exhibitions, Seminars or any other type of
+                    Event
                   </p>
                 </div>
                 <ul className='list-inline'>

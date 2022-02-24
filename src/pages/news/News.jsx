@@ -48,7 +48,9 @@ function News() {
                         </h4>
                       </div>
                       <div className='post-title'>
-                        <h3>Elementum purus id ultrices.</h3>
+                        <h3>
+                          How to reduce cyber risk in the age of ransom ware.
+                        </h3>
                       </div>
                       <div className='post-meta'>
                         <ul className='list-inline'>
@@ -68,42 +70,33 @@ function News() {
                       </div>
                       <div className='post-details'>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit, sed do eiusm tempor incididunt ut labore dolore
-                          magna aliqua enim ad minim veniam quis nostrud.laboris
-                          nisi ut aliquip ex ea commodo conse quat. Duis aute
-                          irure dolor in reprehenderit in voluptate velit esse
-                          cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                          occaecat cupidatat non proident, sunt in culpa qui
-                          officia deserunt mollit anim id est laborum.
+                          Lean how to manage your cyber risks and costs with
+                          robust security controls and machine learning
                         </p>
                         <p>
-                          Nemo enim ipsam voluptatem quia voluptas sit
-                          aspernatur aut odit aut fugit, sed quia consequuntur
-                          magni dolores eos qui ratione voluptatem sequi
-                          nesciunt.
+                          As ransom ware attacks can be costly, organizations
+                          must be equipped with both traditional and innovative
+                          tools in order to avoid huge expenses following an
+                          incident
                         </p>
                         <p>
-                          Neque porro quisquam est, qui dolorem ipsum quia dolor
-                          sit amet, consectetur, adipisci velit, sed quia non
-                          numquam eius modi tempora incidunt ut labore et dolore
-                          magnam aliquam. quaerat voluptatem.
+                          There are important best practices that organizations
+                          can use to reduce cyber risk and be prepared to avoid
+                          the expensive costs of responding to ransomware
+                          incidents.
                         </p>
                         <div className='quotes'>
                           <blockquote>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit, sed do eiusm tempor incididunt ut labore
-                            dolore magna aliqua enim ad minim veniam quis
-                            nostrud.laboris nisi ut aliquip ex ea commodo
-                            consequat.{' '}
+                            Join this webinar to learn: <br />• Why traditional
+                            edge security technologies are necessary, but not
+                            sufficient <br />• How a robust set of security
+                            controls can reduce the save time and cost of a
+                            cyberattack <br />• Best practices for addressing
+                            ransomware threats – including immutable backups,
+                            machine learning-based anomaly detection and
+                            automated recovery – in the data centre or cloud
                           </blockquote>
                         </div>
-                        <p>
-                          Amet consectetur adipisicing elit, sed do eiusm tempor
-                          incididunt ut labore dolore magna aliqua enim ad minim
-                          veniam quis nostrud.laboris nisi ut aliquip ex ea
-                          commodo conse
-                        </p>
                         <div className='share-block'>
                           <div className='tag'>
                             <p>Tags:</p>

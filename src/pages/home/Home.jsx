@@ -22,9 +22,9 @@ function Home() {
               <div className='block'>
                 {/* Coundown Timer */}
                 <div className='timer' />
-                <h1>Business</h1>
-                <h2>Conference 2017</h2>
-                <h6>02-05 July 2017 California</h6>
+                <h1>Cyber Security</h1>
+                <h2>Conference 2022</h2>
+                <h6>02-05 July 2022 Faisalabad</h6>
                 {/* Action Button */}
                 <a href='#' className='btn btn-white-md'>
                   get ticket now
@@ -42,8 +42,6 @@ function Home() {
       <ActionTicket />
       <Sponser />
       <NewsPost />
-      <Subscriber />
-      <GoogleMap />
     </div>
   );
 }

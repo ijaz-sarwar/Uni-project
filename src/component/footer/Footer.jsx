@@ -34,7 +34,7 @@ function Footer() {
                     </li>
                     <li className='list-inline-item'>
                       <a href='#'>
-                        <i className='fa fa-rss' />
+                        <i className='fa fa-youtube' />
                       </a>
                     </li>
                     <li className='list-inline-item'>
