@@ -1,4 +1,6 @@
 import React from 'react';
+import Speakers from '../../component/speaker/Speakers';
+import About from './../../component/about/About';
 
 function AboutUs() {
   return (
@@ -25,422 +27,11 @@ function AboutUs() {
         {/*===========================
 =            About            =
 ============================*/}
-        <section className='section about'>
-          <div className='container'>
-            <div className='row'>
-              <div className='col-lg-4 col-md-6 align-self-center'>
-                <div className='image-block bg-about'>
-                  <img
-                    className='img-fluid'
-                    src='images/speakers/featured-speaker.jpg'
-                    alt
-                  />
-                </div>
-              </div>
-              <div className='col-lg-8 col-md-6 align-self-center'>
-                <div className='content-block'>
-                  <h2>
-                    About The <span className='alternate'>Eventre</span>
-                  </h2>
-                  <div className='description-one'>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusm tempor incididunt ut labore dolore magna
-                      aliqua enim ad minim veniam quis nostrud exercitation
-                      ullamco.
-                    </p>
-                  </div>
-                  <div className='description-two'>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmtempor incididunt ut labore et dolore magna
-                      aliq enim ad minim veniam quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea.
-                    </p>
-                  </div>
-                  <ul className='list-inline'>
-                    <li className='list-inline-item'>
-                      <a href='#' className='btn btn-main-md'>
-                        Buy ticket
-                      </a>
-                    </li>
-                    <li className='list-inline-item'>
-                      <a href='#' className='btn btn-transparent-md'>
-                        Read more
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+
+        <About />
       </div>
       <div>
-        <section className='section speakers bg-speaker overlay-lighter'>
-          <div className='container'>
-            <div className='row'>
-              <div className='col-12'>
-                {/* Section Title */}
-                <div className='section-title white'>
-                  <h3>
-                    Who <span className='alternate'>Speaking?</span>
-                  </h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit sed
-                    do eiusm tempor incididunt ut labore
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className='row'>
-              <div className='col-lg-3 col-md-4 col-sm-6'>
-                {/* Speaker 1 */}
-                <div className='speaker-item'>
-                  <div className='image'>
-                    <img
-                      src='images/speakers/speaker-one.jpg'
-                      alt='speaker'
-                      className='img-fluid'
-                    />
-                    <div className='primary-overlay' />
-                    <div className='socials'>
-                      <ul className='list-inline'>
-                        <li className='list-inline-item'>
-                          <a href='#'>
-                            <i className='fa fa-facebook' />
-                          </a>
-                        </li>
-                        <li className='list-inline-item'>
-                          <a href='#'>
-                            <i className='fa fa-twitter' />
-                          </a>
-                        </li>
-                        <li className='list-inline-item'>
-                          <a href='#'>
-                            <i className='fa fa-linkedin' />
-                          </a>
-                        </li>
-                        <li className='list-inline-item'>
-                          <a href='#'>
-                            <i className='fa fa-pinterest' />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className='content text-center'>
-                    <h5>
-                      <a href='single-speaker.html'>Johnathan Franco</a>
-                    </h5>
-                    <p>Project Manager</p>
-                  </div>
-                </div>
-              </div>
-              <div className='col-lg-3 col-md-4 col-sm-6'>
-                {/* Speaker 2 */}
-                <div className='speaker-item'>
-                  <div className='image'>
-                    <img
-                      src='images/speakers/speaker-two.jpg'
-                      alt='speaker'
-                      className='img-fluid'
-                    />
-                    <div className='primary-overlay' />
-                    <div className='socials'>
-                      <ul className='list-inline'>
-                        <li className='list-inline-item'>
-                          <a href='#'>
-                            <i className='fa fa-facebook' />
-                          </a>
-                        </li>
-                        <li className='list-inline-item'>
-                          <a href='#'>
-                            <i className='fa fa-twitter' />
-                          </a>
-                        </li>
-                        <li className='list-inline-item'>
-                          <a href='#'>
-                            <i className='fa fa-linkedin' />
-                          </a>
-                        </li>
-                        <li className='list-inline-item'>
-                          <a href='#'>
-                            <i className='fa fa-pinterest' />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className='content text-center'>
-                    <h5>
-                      <a href='single-speaker.html'>Johnathan Franco</a>
-                    </h5>
-                    <p>Project Manager</p>
-                  </div>
-                </div>
-              </div>
-              <div className='col-lg-3 col-md-4 col-sm-6'>
-                {/* Speaker 3 */}
-                <div className='speaker-item'>
-                  <div className='image'>
-                    <img
-                      src='images/speakers/speaker-three.jpg'
-                      alt='speaker'
-                      className='img-fluid'
-                    />
-                    <div className='primary-overlay' />
-                    <div className='socials'>
-                      <ul className='list-inline'>
-                        <li className='list-inline-item'>
-                          <a href='#'>
-                            <i className='fa fa-facebook' />
-                          </a>
-                        </li>
-                        <li className='list-inline-item'>
-                          <a href='#'>
-                            <i className='fa fa-twitter' />
-                          </a>
-                        </li>
-                        <li className='list-inline-item'>
-                          <a href='#'>
-                            <i className='fa fa-linkedin' />
-                          </a>
-                        </li>
-                        <li className='list-inline-item'>
-                          <a href='#'>
-                            <i className='fa fa-pinterest' />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className='content text-center'>
-                    <h5>
-                      <a href='single-speaker.html'>Johnathan Franco</a>
-                    </h5>
-                    <p>Project Manager</p>
-                  </div>
-                </div>
-              </div>
-              <div className='col-lg-3 col-md-4 col-sm-6'>
-                {/* Speaker 4 */}
-                <div className='speaker-item'>
-                  <div className='image'>
-                    <img
-                      src='images/speakers/speaker-four.jpg'
-                      alt='speaker'
-                      className='img-fluid'
-                    />
-                    <div className='primary-overlay' />
-                    <div className='socials'>
-                      <ul className='list-inline'>
-                        <li className='list-inline-item'>
-                          <a href='#'>
-                            <i className='fa fa-facebook' />
-                          </a>
-                        </li>
-                        <li className='list-inline-item'>
-                          <a href='#'>
-                            <i className='fa fa-twitter' />
-                          </a>
-                        </li>
-                        <li className='list-inline-item'>
-                          <a href='#'>
-                            <i className='fa fa-linkedin' />
-                          </a>
-                        </li>
-                        <li className='list-inline-item'>
-                          <a href='#'>
-                            <i className='fa fa-pinterest' />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className='content text-center'>
-                    <h5>
-                      <a href='single-speaker.html'>Johnathan Franco</a>
-                    </h5>
-                    <p>Project Manager</p>
-                  </div>
-                </div>
-              </div>
-              <div className='col-lg-3 col-md-4 col-sm-6'>
-                {/* Speaker 5 */}
-                <div className='speaker-item'>
-                  <div className='image'>
-                    <img
-                      src='images/speakers/speaker-five.jpg'
-                      alt='speaker'
-                      className='img-fluid'
-                    />
-                    <div className='primary-overlay' />
-                    <div className='socials'>
-                      <ul className='list-inline'>
-                        <li className='list-inline-item'>
-                          <a href='#'>
-                            <i className='fa fa-facebook' />
-                          </a>
-                        </li>
-                        <li className='list-inline-item'>
-                          <a href='#'>
-                            <i className='fa fa-twitter' />
-                          </a>
-                        </li>
-                        <li className='list-inline-item'>
-                          <a href='#'>
-                            <i className='fa fa-linkedin' />
-                          </a>
-                        </li>
-                        <li className='list-inline-item'>
-                          <a href='#'>
-                            <i className='fa fa-pinterest' />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className='content text-center'>
-                    <h5>
-                      <a href='single-speaker.html'>Johnathan Franco</a>
-                    </h5>
-                    <p>Project Manager</p>
-                  </div>
-                </div>
-              </div>
-              <div className='col-lg-3 col-md-4 col-sm-6'>
-                {/* Speaker 1 */}
-                <div className='speaker-item'>
-                  <div className='image'>
-                    <img
-                      src='images/speakers/speaker-six.jpg'
-                      alt='speaker'
-                      className='img-fluid'
-                    />
-                    <div className='primary-overlay' />
-                    <div className='socials'>
-                      <ul className='list-inline'>
-                        <li className='list-inline-item'>
-                          <a href='#'>
-                            <i className='fa fa-facebook' />
-                          </a>
-                        </li>
-                        <li className='list-inline-item'>
-                          <a href='#'>
-                            <i className='fa fa-twitter' />
-                          </a>
-                        </li>
-                        <li className='list-inline-item'>
-                          <a href='#'>
-                            <i className='fa fa-linkedin' />
-                          </a>
-                        </li>
-                        <li className='list-inline-item'>
-                          <a href='#'>
-                            <i className='fa fa-pinterest' />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className='content text-center'>
-                    <h5>
-                      <a href='single-speaker.html'>Johnathan Franco</a>
-                    </h5>
-                    <p>Project Manager</p>
-                  </div>
-                </div>
-              </div>
-              <div className='col-lg-3 col-md-4 col-sm-6'>
-                {/* Speaker 7 */}
-                <div className='speaker-item'>
-                  <div className='image'>
-                    <img
-                      src='images/speakers/speaker-five.jpg'
-                      alt='speaker'
-                      className='img-fluid'
-                    />
-                    <div className='primary-overlay' />
-                    <div className='socials'>
-                      <ul className='list-inline'>
-                        <li className='list-inline-item'>
-                          <a href='#'>
-                            <i className='fa fa-facebook' />
-                          </a>
-                        </li>
-                        <li className='list-inline-item'>
-                          <a href='#'>
-                            <i className='fa fa-twitter' />
-                          </a>
-                        </li>
-                        <li className='list-inline-item'>
-                          <a href='#'>
-                            <i className='fa fa-linkedin' />
-                          </a>
-                        </li>
-                        <li className='list-inline-item'>
-                          <a href='#'>
-                            <i className='fa fa-pinterest' />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className='content text-center'>
-                    <h5>
-                      <a href='single-speaker.html'>Johnathan Franco</a>
-                    </h5>
-                    <p>Project Manager</p>
-                  </div>
-                </div>
-              </div>
-              <div className='col-lg-3 col-md-4 col-sm-6'>
-                {/* Speaker 8 */}
-                <div className='speaker-item'>
-                  <div className='image'>
-                    <img
-                      src='images/speakers/speaker-six.jpg'
-                      alt='speaker'
-                      className='img-fluid'
-                    />
-                    <div className='primary-overlay' />
-                    <div className='socials'>
-                      <ul className='list-inline'>
-                        <li className='list-inline-item'>
-                          <a href='#'>
-                            <i className='fa fa-facebook' />
-                          </a>
-                        </li>
-                        <li className='list-inline-item'>
-                          <a href='#'>
-                            <i className='fa fa-twitter' />
-                          </a>
-                        </li>
-                        <li className='list-inline-item'>
-                          <a href='#'>
-                            <i className='fa fa-linkedin' />
-                          </a>
-                        </li>
-                        <li className='list-inline-item'>
-                          <a href='#'>
-                            <i className='fa fa-pinterest' />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className='content text-center'>
-                    <h5>
-                      <a href='single-speaker.html'>Johnathan Franco</a>
-                    </h5>
-                    <p>Project Manager</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        <Speakers />
         {/*====  End of Speakers  ====*/}
         {/*==================================Testimonial==================================*/}
         <section className='section testimonial'>
@@ -452,8 +43,10 @@ function AboutUs() {
                     What People <span className='alternate'>Say?</span>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Deleniti aliquid vero harum rerum voluptates, ab, ullam.
+                    Reduce the risk of accidental data breaches & protect your
+                    business from malicious threats. Protect your data against
+                    modern threats without handcuffing your employees
+                    productivity.
                   </p>
                 </div>
               </div>
@@ -465,25 +58,22 @@ function AboutUs() {
                   {/* Given Comment */}
                   <div className='comment'>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Reiciendis voluptate modi sunt placeat in vel illo
-                      dolorem, atque maxime voluptates optio fugit iure cum ipsa
-                      quo quaerat! Veritatis, modi. Laudantium provident
-                      deleniti earum voluptas delectus, labore dolor dolorem
-                      amet expedita.
+                      Thanks team ism for Providing strategic planning, stunning
+                      design and superior production and management services for
+                      events.
                     </p>
                   </div>
                   <div className='person'>
                     <div className='media'>
                       {/* Person Image */}
                       <img
-                        src='images/speakers/speaker-thumb-three.jpg'
+                        src='images/speakers/testominals 1.jpg'
                         alt='person-image'
                       />
                       <div className='media-body'>
                         {/* Person Name */}
                         <div className='name'>
-                          <p>Espen Brunberg</p>
+                          <p>Jack</p>
                         </div>
                         {/* Profession */}
                         <div className='profession'>
@@ -500,29 +90,26 @@ function AboutUs() {
                   {/* Given Comment */}
                   <div className='comment'>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Reiciendis voluptate modi sunt placeat in vel illo
-                      dolorem, atque maxime voluptates optio fugit iure cum ipsa
-                      quo quaerat! Veritatis, modi. Laudantium provident
-                      deleniti earum voluptas delectus, labore dolor dolorem
-                      amet expedita.
+                      Harnessing creativity and perfecting the craft with
+                      practical experience providing great services for event
+                      planning Really like to work with team ism.
                     </p>
                   </div>
                   <div className='person'>
                     <div className='media'>
                       {/* Person Image */}
                       <img
-                        src='images/speakers/speaker-thumb-one.jpg'
+                        src='images/speakers/testominals 2.jpg'
                         alt='person-image'
                       />
                       <div className='media-body'>
                         {/* Person Name */}
                         <div className='name'>
-                          <p>Kaite Stricker</p>
+                          <p>Robert Smith</p>
                         </div>
                         {/* Profession */}
                         <div className='profession'>
-                          <p>Designer</p>
+                          <p>Distributed Database</p>
                         </div>
                       </div>
                     </div>
@@ -535,19 +122,16 @@ function AboutUs() {
                   {/* Given Comment */}
                   <div className='comment'>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Reiciendis voluptate modi sunt placeat in vel illo
-                      dolorem, atque maxime voluptates optio fugit iure cum ipsa
-                      quo quaerat! Veritatis, modi. Laudantium provident
-                      deleniti earum voluptas delectus, labore dolor dolorem
-                      amet expedita.
+                      Their innate style and inherent knowledge can be seen and
+                      measured in execution of originality in design and
+                      concept.
                     </p>
                   </div>
                   <div className='person'>
                     <div className='media'>
                       {/* Person Image */}
                       <img
-                        src='images/speakers/speaker-thumb-five.jpg'
+                        src='images/speakers/testominals 3.jpg'
                         alt='person-image'
                       />
                       <div className='media-body'>

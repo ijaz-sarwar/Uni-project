@@ -40,50 +40,50 @@ function SingleSpeaker() {
                 <div className='col-lg-7 col-md-6 align-self-center'>
                   <div className='content-block'>
                     <div className='name'>
-                      <h3>Jonathan Franco</h3>
+                      <h3>Rafay Bloch</h3>
                     </div>
                     <div className='profession'>
-                      <p>Web Developer</p>
+                      <p>Cyber Security Researcher</p>
                     </div>
                     <div className='details'>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusm tempor incididunt ut labore dolore
-                        magna aliqua enim ad minim veniam quis nostrud.laboris
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                        dolor in reprehenderit in voluptate velit esse. Duis
-                        aute irure dolor in reprehenderit in voluptate velit
-                        esse.
+                        An information security expert and evangelist listed as
+                        `Top 25 threat seekers of 2014` and `The 15 Most
+                        Successful Ethical Hackers WorldWide`by SCmagazine for
+                        the issues he uncovered with Android.
                         <br />
                       </p>
                       <p>
-                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur
-                        aut odit aut fugit, sed quia consequuntur magni dolores
-                        eos qui ratione voluptatem sequi nesciunt.
-                        <br />
-                        Neque porro quisquam est, qui dolorem ipsum quia dolor
-                        sit amet, consectetur
+                        Listed as one of Pakistan's 25 high achievers under 25
+                        years of age. Apart from this rafay is also Author of
+                        "Ethical Hacking And Pentesting Book". Rafay’s work has
+                        also been featured into many national/international
+                        magazines, newspapers and forums. These include websites
+                        such as SC magazine, Forbes, Yahoo news, Metasploit,
+                        threatpost etc. His research has been accepted at
+                        international conferences such CSP, SecureBrasil,
+                        Defcamp, Blackhat
                       </p>
                     </div>
                     <div className='social-profiles'>
                       <h5>Social Profiles</h5>
                       <ul className='list-inline social-list'>
                         <li className='list-inline-item'>
-                          <a href='#'>
+                          <a href='https://twitter.com/rafaybaloch?lang=en'>
                             <i className='fa fa-twitter' />
                           </a>
                         </li>
                         <li className='list-inline-item'>
-                          <a href='#'>
+                          <a href='https://uk.linkedin.com/in/rafaybaloch'>
                             <i className='fa fa-linkedin' />
                           </a>
                         </li>
                         <li className='list-inline-item'>
-                          <a href='#'>
+                          <a href='https://www.facebook.com/rafaybalochofficialpage'>
                             <i className='fa fa-facebook' />
                           </a>
                         </li>
-                        <li className='list-inline-item'>
+                        {/* <li className='list-inline-item'>
                           <a href='#'>
                             <i className='fa fa-skype' />
                           </a>
@@ -92,7 +92,7 @@ function SingleSpeaker() {
                           <a href='#'>
                             <i className='fa fa-pinterest-p' />
                           </a>
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </div>
@@ -105,21 +105,32 @@ function SingleSpeaker() {
                   <div className='personal-info'>
                     <h5>Personal Information</h5>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Excepturi explicabo suscipit deleniti voluptatum quos
-                      nostrum iure doloremque cupiditate voluptatem a enim eaque
-                      quod perspiciatis repudiandae, mollitia adipisci ea,
-                      quidem eveniet consequatur veniam error. Adipisci,
-                      suscipit corporis repellat, soluta vitae deserunt
-                      perspiciatis labore reprehenderit sapiente provident vel
-                      maxime.
+                      An information security expert and evangelist listed as
+                      `Top 25 threat seekers of 2014` and `The 15 Most
+                      Successful Ethical Hackers WorldWide`by SCmagazine for the
+                      issues he uncovered with Android.
                     </p>
                     <ul className='m-0 p-0'>
-                      <li>Morbi fermentum felis nec</li>
-                      <li>Fermentum felis nec gravida tempus.</li>
-                      <li>Morbi fermentum felis nec</li>
-                      <li>Fermentum felis nec gravida tempus.</li>
-                      <li>Morbi fermentum felis nec</li>
+                      <li>
+                        University of Westminster Masters in Cyber Security and
+                        Forensics Distinction 2020 - 2021
+                      </li>
+                      <li>
+                        Riphah International University Masters in Information
+                        Security 2019 - 2020
+                      </li>
+                      <li>
+                        Bahria University Bachelors In Computer ScienceComputer
+                        Science 2010 - 2014
+                      </li>
+                      <li>
+                        Elearn security Penetration Testing Professional (eCPPT)
+                        ELearn Security Issued Feb 2017
+                      </li>
+                      <li>
+                        Computer Hacking Forensic Investigator (CHFI) EC-Council
+                        Issued Oct 2015
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -127,15 +138,17 @@ function SingleSpeaker() {
                   <div className='skills'>
                     <h5>Personal Skills</h5>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Nobis repellat inventore at praesentium perspiciatis
-                      labore reprehenderit sapiente provident vel maxime.
+                      Rafay Baloch is now a proud figure of Pakistan. He has
+                      used himself for positive purposes and earned name for
+                      Pakistan. A security information report publishing agency
+                      named Checkmarx has listed Rafay Baloch in White Hat
+                      hackers of 2014
                     </p>
                     <div className='skill-bars'>
                       {/* SkillBar */}
                       <div className='skill-bar'>
                         {/* Title */}
-                        <p>Wordpress</p>
+                        <p>Cyber Security Researcher</p>
                         {/* Progress Bar */}
                         <div className='progress'>
                           <div
@@ -149,35 +162,35 @@ function SingleSpeaker() {
                       {/* SkillBar */}
                       <div className='skill-bar'>
                         {/* Title */}
-                        <p>PHP</p>
+                        <p> Published Author on Ethical Hacking</p>
                         {/* Progress Bar */}
                         <div className='progress'>
                           <div
                             className='progress-bar'
                             role='progressbar'
-                            style={{ width: '75%' }}>
-                            <span>75%</span>
+                            style={{ width: '85%' }}>
+                            <span>85%</span>
                           </div>
                         </div>
                       </div>
                       {/* SkillBar */}
                       <div className='skill-bar'>
                         {/* Title */}
-                        <p>Javascript</p>
+                        <p>Chevening Scholar</p>
                         {/* Progress Bar */}
                         <div className='progress'>
                           <div
                             className='progress-bar'
                             role='progressbar'
-                            style={{ width: '60%' }}>
-                            <span>60%</span>
+                            style={{ width: '80%' }}>
+                            <span>80%</span>
                           </div>
                         </div>
                       </div>
                       {/* SkillBar */}
                       <div className='skill-bar'>
                         {/* Title */}
-                        <p>HTML</p>
+                        <p>Penetration Testing</p>
                         {/* Progress Bar */}
                         <div className='progress'>
                           <div
