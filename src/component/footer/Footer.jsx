@@ -18,28 +18,23 @@ function Footer() {
                   </div>
                   <ul className='social-links-footer list-inline'>
                     <li className='list-inline-item'>
-                      <a href='#'>
+                      <a href='https://www.facebook.com/ISMevents786'>
                         <i className='fa fa-facebook' />
                       </a>
                     </li>
                     <li className='list-inline-item'>
-                      <a href='#'>
+                      <a href='https://twitter.com/EventsIsm'>
                         <i className='fa fa-twitter' />
                       </a>
                     </li>
                     <li className='list-inline-item'>
-                      <a href='#'>
+                      <a href='https://www.instagram.com/ismevents786/'>
                         <i className='fa fa-instagram' />
                       </a>
                     </li>
                     <li className='list-inline-item'>
-                      <a href='#'>
+                      <a href='https://www.youtube.com/channel/UCEwGP9PiAaoNN0pebXIceVA'>
                         <i className='fa fa-youtube' />
-                      </a>
-                    </li>
-                    <li className='list-inline-item'>
-                      <a href='#'>
-                        <i className='fa fa-vimeo' />
                       </a>
                     </li>
                   </ul>
@@ -55,7 +50,7 @@ function Footer() {
               <div className='col-md-6 align-self-center'>
                 <div className='copyright-text'>
                   <p>
-                    <a href='#'>Eventre</a> © 2017 All Right Reserved
+                    <a href='#'>ISM Event</a> © 2022 All Right Reserved
                   </p>
                 </div>
               </div>

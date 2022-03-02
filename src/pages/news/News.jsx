@@ -146,135 +146,10 @@ function News() {
                       </div>
                     </div>
                   </article>
-                  {/* Comment Section */}
-                  <div className='comments'>
-                    <h5>Comments (3)</h5>
-                    {/* Comment */}
-                    <div className='media comment'>
-                      <img
-                        src='images/speakers/speaker-thumb-four.jpg'
-                        alt='image'
-                      />
-                      <div className='media-body'>
-                        <h6>Jessica Brown</h6>
-                        <ul className='list-inline'>
-                          <li className='list-inline-item'>
-                            <span className='fa fa-calendar' />
-                            Mar 20, 2016
-                          </li>
-                          <li className='list-inline-item'>
-                            <a href='#'>Reply</a>
-                          </li>
-                        </ul>
-                        <p>
-                          Sed ut perspiciatis unde omnis iste natus error sit
-                          voluptatem accusantium doloremque laudant tota rem ape
-                          riamipsa eaque quae nisi ut aliquip commodo consequat.
-                        </p>
-                        {/* Nested Comment */}
-                        <div className='media comment'>
-                          <img
-                            src='images/speakers/speaker-thumb-three.jpg'
-                            alt='image'
-                          />
-                          <div className='media-body'>
-                            <h6>Jonathan Doe</h6>
-                            <ul className='list-inline'>
-                              <li className='list-inline-item'>
-                                <span className='fa fa-calendar' />
-                                Mar 20, 2016
-                              </li>
-                            </ul>
-                            <p>
-                              Sed ut perspiciatis unde omnis iste natus error
-                              sit voluptatem accusantium doloremque laudant tota
-                              rem ape riamipsa eaque quae nisi
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    {/* Comment */}
-                    <div className='media comment'>
-                      <img
-                        src='images/speakers/speaker-thumb-two.jpg'
-                        alt='image'
-                      />
-                      <div className='media-body'>
-                        <h6>Adam Smith</h6>
-                        <ul className='list-inline'>
-                          <li className='list-inline-item'>
-                            <span className='fa fa-calendar' />
-                            Mar 20, 2016
-                          </li>
-                          <li className='list-inline-item'>
-                            <a href='#'>Reply</a>
-                          </li>
-                        </ul>
-                        <p>
-                          Sed ut perspiciatis unde omnis iste natus error sit
-                          voluptatem accusantium doloremque laudant tota rem ape
-                          riamipsa eaque quae nisi ut aliquip commodo consequat.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className='comment-form'>
-                    <h5>Leave A Comment</h5>
-                    <form action='#' className='row'>
-                      <div className='col-12'>
-                        <textarea
-                          className='form-control main'
-                          name='comment'
-                          id='comment'
-                          rows={10}
-                          placeholder='Your Review'
-                          defaultValue={''}
-                        />
-                      </div>
-                      <div className='col-md-6'>
-                        <input
-                          type='text'
-                          className='form-control main'
-                          name='text'
-                          id='name'
-                          placeholder='Your Name'
-                        />
-                      </div>
-                      <div className='col-md-6'>
-                        <input
-                          type='email'
-                          className='form-control main'
-                          name='email'
-                          id='email'
-                          placeholder='Your Email'
-                        />
-                      </div>
-                      <div className='col-12'>
-                        <button className='btn btn-main-md' type='submit'>
-                          Submit Now
-                        </button>
-                      </div>
-                    </form>
-                  </div>
                 </div>
               </div>
               <div className='col-lg-4 col-md-10 mx-auto'>
                 <div className='sidebar'>
-                  {/* Search Widget */}
-                  <div className='widget search p-0'>
-                    <div className='input-group'>
-                      <input
-                        type='text'
-                        className='form-control main m-0'
-                        id='expire'
-                        placeholder='Search...'
-                      />
-                      <span className='input-group-addon'>
-                        <i className='fa fa-search' />
-                      </span>
-                    </div>
-                  </div>
                   {/* Category Widget */}
                   <div className='widget category'>
                     {/* Widget Header */}
@@ -321,14 +196,14 @@ function News() {
                       />
                       <div className='media-body'>
                         <h6>
-                          <a href>
-                            Nam hendrerit eros in ligula suscipit suscipit
+                          <a href='https://allevents.in/faisalabad/textile-asia-2022-exhibition-faisalabad/200022018653540?ref=cityhome'>
+                            Textile Asia 2022 exhibition Faisalabad
                           </a>
                         </h6>
-                        <p href='#'>
+                        <a href='https://allevents.in/faisalabad/textile-asia-2022-exhibition-faisalabad/200022018653540?ref=cityhome'>
                           <span className='fa fa-calendar' />
-                          02 Feb, 2017
-                        </p>
+                          Mar 26, 2022 - Mar 28, 2022
+                        </a>
                       </div>
                     </div>
                     {/* Post */}
@@ -340,13 +215,13 @@ function News() {
                       />
                       <div className='media-body'>
                         <h6>
-                          <a href>
-                            Nam hendrerit eros in ligula suscipit suscipit
+                          <a href='https://allevents.in/faisalabad/real-estate-expo/200022028533308'>
+                            Real estate expo in Faisalabad
                           </a>
                         </h6>
-                        <p href='#'>
+                        <p href='https://allevents.in/faisalabad/real-estate-expo/200022028533308'>
                           <span className='fa fa-calendar' />
-                          02 Feb, 2017
+                          Mar 12, 2022 - Mar 13, 2022
                         </p>
                       </div>
                     </div>
@@ -359,13 +234,13 @@ function News() {
                       />
                       <div className='media-body'>
                         <h6>
-                          <a href>
-                            Nam hendrerit eros in ligula suscipit suscipit
+                          <a href='https://allevents.in/faisalabad/pakistan-art-and-craft-expo-2022-3rd-edition/200022114727451?ref=cityhome'>
+                            Pakistan Art and Craft Expo 2022 (3rd Edition)
                           </a>
                         </h6>
-                        <p href='#'>
+                        <p href='https://allevents.in/faisalabad/pakistan-art-and-craft-expo-2022-3rd-edition/200022114727451?ref=cityhome'>
                           <span className='fa fa-calendar' />
-                          02 Feb, 2017
+                          Mar 11 2022
                         </p>
                       </div>
                     </div>
@@ -378,41 +253,16 @@ function News() {
                       />
                       <div className='media-body'>
                         <h6>
-                          <a href>
-                            Nam hendrerit eros in ligula suscipit suscipit
+                          <a href='https://stayhappening.com/e/family-gala-E2ISU87WGDN'>
+                            Family Gala
                           </a>
                         </h6>
-                        <p href='#'>
+                        <p href='https://stayhappening.com/e/family-gala-E2ISU87WGDN'>
                           <span className='fa fa-calendar' />
-                          02 Feb, 2017
+                          Fri Mar 04 2022
                         </p>
                       </div>
                     </div>
-                  </div>
-                  {/* Popular Tag Widget */}
-                  <div className='widget tags'>
-                    {/* Widget Header */}
-                    <h5 className='widget-header'>Popular Tags</h5>
-                    <ul className='list-inline'>
-                      <li className='list-inline-item'>
-                        <a href='#'>Culture</a>
-                      </li>
-                      <li className='list-inline-item'>
-                        <a href='#'>Social</a>
-                      </li>
-                      <li className='list-inline-item'>
-                        <a href='#'>News</a>
-                      </li>
-                      <li className='list-inline-item'>
-                        <a href='#'>Events</a>
-                      </li>
-                      <li className='list-inline-item'>
-                        <a href='#'>Sports</a>
-                      </li>
-                      <li className='list-inline-item'>
-                        <a href='#'>Music</a>
-                      </li>
-                    </ul>
                   </div>
                 </div>
               </div>
@@ -420,8 +270,6 @@ function News() {
           </div>
         </section>
       </div>
-      <Subscriber />
-      <GoogleMap />
     </div>
   );
 }

@@ -31,7 +31,7 @@ function Pricing() {
               <div className='col-12'>
                 <div className='section-title'>
                   <h3>
-                    Get <span className='alternate'>ticket</span>
+                    Choose <span className='alternate'>Your Plan</span>
                   </h3>
                   <p>Match with our plans</p>
                 </div>

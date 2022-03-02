@@ -1,9 +1,7 @@
 import React, { Fragment } from 'react';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
-//import Spiner from './../common/Spiner';
 import Home from '../pages/home/Home';
 import Navbar from './../pages/navbar/Navbar';
-import Footer from './../pages/footer/Footer';
 import Speaker from './../pages/speaker/Speaker';
 import AboutUs from './../pages/webPages/AboutUs';
 import SingleSpeaker from './../pages/webPages/SingleSpeaker';
@@ -17,6 +15,7 @@ import News from '../pages/news/News';
 import Contact from './../pages/contact/Contact';
 import Subscriber from '../component/subscriber/Subscriber';
 import GoogleMap from './../component/googleMap/GoogleMap';
+import Footer from './../component/footer/Footer';
 function Routing() {
   return (
     <Fragment>
