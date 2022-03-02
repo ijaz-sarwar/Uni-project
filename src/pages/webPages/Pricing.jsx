@@ -1,6 +1,4 @@
 import React from 'react';
-import GoogleMap from '../../component/googleMap/GoogleMap';
-import Subscriber from '../../component/subscriber/Subscriber';
 
 function Pricing() {
   return (
@@ -35,10 +33,7 @@ function Pricing() {
                   <h3>
                     Get <span className='alternate'>ticket</span>
                   </h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit sed
-                    do eiusm tempor incididunt ut labore
-                  </p>
+                  <p>Match with our plans</p>
                 </div>
               </div>
             </div>
@@ -203,8 +198,6 @@ function Pricing() {
           </div>
         </section>
       </div>
-      <Subscriber />
-      <GoogleMap />
     </div>
   );
 }

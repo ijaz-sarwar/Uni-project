@@ -11,10 +11,7 @@ function PricingTable() {
                 <h3>
                   Get <span className='alternate'>ticket</span>
                 </h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                  eiusm tempor incididunt ut labore
-                </p>
+                <p>Match with our plans</p>
               </div>
             </div>
           </div>

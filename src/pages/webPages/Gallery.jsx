@@ -1,6 +1,4 @@
 import React from 'react';
-import GoogleMap from '../../component/googleMap/GoogleMap';
-import Subscriber from './../../component/subscriber/Subscriber';
 
 function Gallery() {
   return (
@@ -31,7 +29,7 @@ function Gallery() {
           <div className='container'>
             <div className='row'>
               <div className='col-12'>
-                <div className='controls'>
+                {/* <div className='controls'>
                   <button
                     type='button'
                     className='control mixitup-control-active'
@@ -68,7 +66,7 @@ function Gallery() {
                     data-filter='.concert'>
                     Concert
                   </button>
-                </div>
+                </div> */}
                 <div className='gallery-wrapper'>
                   <div className='gallery-item mix meeting'>
                     <div className='image-block'>
@@ -190,8 +188,6 @@ function Gallery() {
           </div>
         </section>
       </div>
-      <Subscriber />
-      <GoogleMap />
     </div>
   );
 }

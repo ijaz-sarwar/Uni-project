@@ -12,10 +12,7 @@ function Subscriber() {
                 <h3>
                   Subscribe to Our <span className='alternate'>Newsletter</span>
                 </h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                  eiusm tempor
-                </p>
+                <p>Get in touch with our event plans</p>
               </div>
             </div>
             <div className='col-md-6 ml-auto align-self-center'>

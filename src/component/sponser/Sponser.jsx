@@ -11,10 +11,7 @@ function Sponser() {
                 <h3>
                   Our <span className='alternate'>Sponsors</span>
                 </h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                  eiusm tempor incididunt ut labore dolore
-                </p>
+                <p>With these make it possible</p>
               </div>
             </div>
           </div>

@@ -12,10 +12,7 @@ function Schedule() {
                 <h3>
                   Event <span className='alternate'>Schedule</span>
                 </h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit sed
-                  do eiusm tempor incididunt ut labore
-                </p>
+                <p>See what we match for you</p>
               </div>
             </div>
           </div>

@@ -9,12 +9,9 @@ function NewsPost() {
             <div className='col-12'>
               <div className='section-title'>
                 <h3>
-                  Eventre <span className='alternate'>News</span>
+                  ISM Event <span className='alternate'>News</span>
                 </h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                  eiusm tempor incididunt ut labore dolore
-                </p>
+                <p>Stay tunned with ISM For coming events</p>
               </div>
             </div>
           </div>
@@ -22,40 +19,37 @@ function NewsPost() {
             <div className='col-lg-4 col-md-6 col-sm-8 col-10 m-auto'>
               <div className='blog-post'>
                 <div className='post-thumb'>
-                  <a href='news-single.html'>
-                    <img
-                      src='images/news/post-thumb-one.jpg'
-                      alt='post-image'
-                      className='img-fluid'
-                    />
-                  </a>
+                  <img
+                    src='images/news/post-thumb-one.jpg'
+                    alt='post-image'
+                    className='img-fluid'
+                  />
                 </div>
                 <div className='post-content'>
                   <div className='date'>
                     <h4>
-                      20<span>May</span>
+                      20<span>Jul</span>
                     </h4>
                   </div>
                   <div className='post-title'>
-                    <h2>
-                      <a href='news-single.html'>
-                        Elementum purus id ultrices.
-                      </a>
-                    </h2>
+                    <p>
+                      How the Pandemic changed the public perception about
+                      ground bussiness?
+                    </p>
                   </div>
                   <div className='post-meta'>
                     <ul className='list-inline'>
                       <li className='list-inline-item'>
                         <i className='fa fa-user-o' />
-                        <a href='#'>Admin</a>
+                        Admi
                       </li>
                       <li className='list-inline-item'>
                         <i className='fa fa-heart-o' />
-                        <a href='#'>350</a>
+                        350
                       </li>
                       <li className='list-inline-item'>
                         <i className='fa fa-comments-o' />
-                        <a href='#'>30</a>
+                        30
                       </li>
                     </ul>
                   </div>
@@ -65,13 +59,11 @@ function NewsPost() {
             <div className='col-lg-4 col-md-6 col-sm-8 col-10 m-auto'>
               <div className='blog-post'>
                 <div className='post-thumb'>
-                  <a href='news-single.html'>
-                    <img
-                      src='images/news/post-thumb-two.jpg'
-                      alt='post-image'
-                      className='img-fluid'
-                    />
-                  </a>
+                  <img
+                    src='images/news/post-thumb-two.jpg'
+                    alt='post-image'
+                    className='img-fluid'
+                  />
                 </div>
                 <div className='post-content'>
                   <div className='date'>
@@ -80,25 +72,24 @@ function NewsPost() {
                     </h4>
                   </div>
                   <div className='post-title'>
-                    <h2>
-                      <a href='news-single.html'>
-                        Elementum purus id ultrices.
-                      </a>
-                    </h2>
+                    <p4>
+                      The Future of Sustainable Business Travel in the Meetings
+                      Industry.
+                    </p4>
                   </div>
                   <div className='post-meta'>
                     <ul className='list-inline'>
                       <li className='list-inline-item'>
                         <i className='fa fa-user-o' />
-                        <a href='#'>Admin</a>
+                        Admin
                       </li>
                       <li className='list-inline-item'>
                         <i className='fa fa-heart-o' />
-                        <a href='#'>350</a>
+                        350
                       </li>
                       <li className='list-inline-item'>
                         <i className='fa fa-comments-o' />
-                        <a href='#'>30</a>
+                        30
                       </li>
                     </ul>
                   </div>
@@ -108,40 +99,37 @@ function NewsPost() {
             <div className='col-lg-4 col-md-6 m-md-auto col-sm-8 col-10 m-auto'>
               <div className='blog-post'>
                 <div className='post-thumb'>
-                  <a href='news-single.html'>
-                    <img
-                      src='images/news/post-thumb-three.jpg'
-                      alt='post-image'
-                      className='img-fluid'
-                    />
-                  </a>
+                  <img
+                    src='images/news/post-thumb-three.jpg'
+                    alt='post-image'
+                    className='img-fluid'
+                  />
                 </div>
                 <div className='post-content'>
                   <div className='date'>
                     <h4>
-                      20<span>May</span>
+                      20<span>Apr</span>
                     </h4>
                   </div>
                   <div className='post-title'>
-                    <h2>
-                      <a href='news-single.html'>
-                        Elementum purus id ultrices.
-                      </a>
-                    </h2>
+                    <p4>
+                      Destinations International Helms Meetings Industry
+                      Diversity Study
+                    </p4>
                   </div>
                   <div className='post-meta'>
                     <ul className='list-inline'>
                       <li className='list-inline-item'>
                         <i className='fa fa-user-o' />
-                        <a href='#'>Admin</a>
+                        Admin
                       </li>
                       <li className='list-inline-item'>
                         <i className='fa fa-heart-o' />
-                        <a href='#'>350</a>
+                        350
                       </li>
                       <li className='list-inline-item'>
                         <i className='fa fa-comments-o' />
-                        <a href='#'>30</a>
+                        30
                       </li>
                     </ul>
                   </div>

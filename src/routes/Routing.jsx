@@ -15,6 +15,8 @@ import Schedule from './../component/schedule/Schedule';
 import Sponsor from './../pages/sponsor/Sponsor';
 import News from '../pages/news/News';
 import Contact from './../pages/contact/Contact';
+import Subscriber from '../component/subscriber/Subscriber';
+import GoogleMap from './../component/googleMap/GoogleMap';
 function Routing() {
   return (
     <Fragment>
@@ -36,6 +38,8 @@ function Routing() {
             <Route exact path='/contact' element={<Contact />} />
           </Routes>
         </BrowserRouter>
+        <Subscriber />
+        <GoogleMap />
         <Footer />
       </React.Suspense>
     </Fragment>

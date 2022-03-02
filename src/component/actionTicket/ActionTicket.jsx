@@ -12,10 +12,7 @@ function ActionTicket() {
                 <h2>
                   Get Ticket <span className='alternate'>Now!</span>
                 </h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                  eiusmtempor incidi
-                </p>
+                <p>Let's connect with ISM Event</p>
                 <a href className='btn btn-main-md'>
                   Buy ticket
                 </a>

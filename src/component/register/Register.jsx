@@ -45,11 +45,9 @@ function Register() {
                 <div className='block'>
                   <div className='title text-left'>
                     <h3>
-                      Register to <span className='alternate'>Eventre</span>
+                      Register to <span className='alternate'>ISM Event</span>
                     </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit
-                    </p>
+                    <p>Stay connected with us</p>
                   </div>
                   <form action='#' className='row'>
                     <div className='col-md-6'>

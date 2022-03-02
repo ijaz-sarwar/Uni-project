@@ -209,8 +209,6 @@ function SingleSpeaker() {
           </div>
         </section>
       </div>
-      <Subscriber />
-      <GoogleMap />
     </div>
   );
 }
