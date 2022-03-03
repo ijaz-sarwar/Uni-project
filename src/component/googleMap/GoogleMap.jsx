@@ -7,18 +7,18 @@ function GoogleMap() {
         {/* Google Map */}
         <div id='map' />
         <div className='address-block'>
-          <h4>Docklands Convention</h4>
+          <h4>ISM Event Managment</h4>
           <ul className='address-list p-0 m-0'>
             <li>
               <i className='fa fa-home' />
               <span>
-                Street Address, Location, <br />
-                City, Country.
+                Street 5, 2nd Floor Tech Tower, <br />
+                Faisalabad, Pakistan.
               </span>
             </li>
             <li>
               <i className='fa fa-phone' />
-              <span>[00] 000 000 000</span>
+              <span>+92 3465630541</span>
             </li>
           </ul>
           <a href='#' className='btn btn-white-md'>

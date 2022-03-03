@@ -113,7 +113,9 @@ function Sponser() {
                 </ul>
               </div>
               <div className='sponsor-btn text-center'>
-                <a href='#' className='btn btn-main-md'>
+                <a
+                  href='https://docs.google.com/forms/d/1GJORvk51-mRvqWXPil8DAN_zR7YKKGzZQUvEetQxPNE/'
+                  className='btn btn-main-md'>
                   Become a sponsor
                 </a>
               </div>
