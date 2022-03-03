@@ -28,12 +28,9 @@ function Contact() {
               <div className='col-12'>
                 <div className='section-title'>
                   <h3>
-                    Get in <span className='alternate'>Touch</span>
+                    Tell Us <span className='alternate'>Your Requirement</span>
                   </h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Maiores, velit.
-                  </p>
+                  <p>Have you an individual plan? Please let us know.</p>
                 </div>
               </div>
             </div>
