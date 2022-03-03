@@ -7,8 +7,6 @@ import PricingTable from './../../component/pricingTable/PricingTable';
 import ActionTicket from './../../component/actionTicket/ActionTicket';
 import Sponser from './../../component/sponser/Sponser';
 import NewsPost from './../../component/newsPost/NewsPost';
-import Subscriber from './../../component/subscriber/Subscriber';
-import GoogleMap from './../../component/googleMap/GoogleMap';
 
 function Home() {
   return (

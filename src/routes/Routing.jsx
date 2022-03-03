@@ -16,6 +16,7 @@ import Contact from './../pages/contact/Contact';
 import Subscriber from '../component/subscriber/Subscriber';
 import GoogleMap from './../component/googleMap/GoogleMap';
 import Footer from './../component/footer/Footer';
+import IsmEvent from './../component/ismEvent/IsmEvent';
 function Routing() {
   return (
     <Fragment>
@@ -25,6 +26,7 @@ function Routing() {
           <Routes>
             <Route exact path='/' element={<Home />} />,
             <Route exact path='/speakers' element={<Speaker />} />
+            {/* <Route exact path='/ismEvent' element={<IsmEvent />} /> */}
             <Route exact path='/about' element={<AboutUs />} />
             <Route exact path='/single-speaker' element={<SingleSpeaker />} />
             <Route exact path='/gallery' element={<Gallery />} />

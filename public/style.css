@@ -245,6 +245,11 @@ button:hover {
   background-size: cover;
   background-position: center center;
 }
+.bg-ismEvent {
+  background: url(../images/background/ismevent-background.jpg) fixed no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
 
 .bg-timer {
   background: url(../images/background/timer-bg.jpg) no-repeat;

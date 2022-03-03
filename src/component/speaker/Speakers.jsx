@@ -1,8 +1,10 @@
 import React from 'react';
+import IsmEvent from '../ismEvent/IsmEvent';
 
 function Speakers() {
   return (
     <div>
+      <IsmEvent />
       <section className='section speakers bg-speaker overlay-lighter'>
         <div className='container'>
           <div className='row'>
